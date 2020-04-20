@@ -3,6 +3,7 @@
 }
 
 .top-nav {
+  /* Flexbox to space out divs and then center aling */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +15,7 @@
 }
 
 .right {
+  /* Additional flexbox will center the text with the button */
   display: flex;
   align-items: center;
 }
