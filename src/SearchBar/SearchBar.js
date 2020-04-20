@@ -7,21 +7,21 @@ export function SearchBar(props) {
 
   return(
     <div>
-      <div className="field has-addons">
-        <p className="control">
+      <div className='field has-addons'>
+        <p className='control'>
           <button className={`button is-static ${sizeClass}`}>Search</button>
         </p>
-        <p className="control">
-          <input className={`input ${sizeClass} ${styles['input-control']}`} type="text" placeholder="burgers, barbers, spas" />
+        <p className='control'>
+          <input className={`input ${sizeClass} ${styles['input-control']}`} type='text' placeholder='burgers, barbers, spas' />
         </p>
-        <p className="control">
+        <p className='control'>
           <button className={`button is-static ${sizeClass}`}>NEAR</button>
         </p>
-        <p className="control">
-          <input className={`input ${sizeClass} ${styles['input-control']}`}  type="text" placeholder="Where" />
+        <p className='control'>
+          <input className={`input ${sizeClass} ${styles['input-control']}`}  type='text' placeholder='Where' />
         </p>
         <div className={`button ${sizeClass} ${styles['search-button']}`}>
-          <span className={`icon is-small ${styles['search-icon']}`}><i className="fas fa-search"></i></span>
+          <span className={`icon is-small ${styles['search-icon']}`}><i className='fas fa-search'></i></span>
         </div>
       </div>
     </div>
