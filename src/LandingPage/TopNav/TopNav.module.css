@@ -3,15 +3,16 @@
 }
 
 .top-nav {
-  /* Flexbox to space out divs and then center aling */
+  /* Flexbox to space out divs and then center align */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: var(--element-spacing)
+  margin: var(--element-spacing);
+  width: 100%;
 }
 
 .left > * {
-  margin-right: var(--element-spacing)
+  margin-right: var(--element-spacing);
 }
 
 .right {
@@ -21,5 +22,5 @@
 }
 
 .right > * {
-  margin-left: var(--element-spacing)
+  margin-left: var(--element-spacing);
 }
