@@ -1,0 +1,15 @@
+.nav-bar {
+  display: flex;
+  background-image: url("../assets/restaurant_icons.png");
+  padding: .6rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-right: 1rem;
+}
+
+:global(.button).nav-button {
+  margin-left: 1rem;
+}
